@@ -1,0 +1,43 @@
+.calculator {
+    width: 400px;
+    height: 245px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.screen{
+    text-align: right;
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-left: 28px;
+    height: 70px;
+}
+.screen p {
+    margin: 2px 0;
+}
+table{
+    width: 100%;
+}
+button{
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #45a049;
+}
+.calculator button.action{
+    padding: 16px 0;
+}
